@@ -8,4 +8,4 @@ Dropouts:
 
 Transfer Learning:
 
-  Transfer Learning is how you can take an existing model, freeze many of its layers to prevent them being retrained, and effectively 'remember' the convolutions it was trained on to fit images. 
+  Transfer Learning is how you can take an existing model, freeze many of its layers to prevent them being retrained, and effectively 'remember' the convolutions it was trained on to fit images. You then added your own DNN underneath this so that you could retrain on your images using the convolutions from the other model. 
